@@ -11,6 +11,6 @@ import org.springframework.stereotype.Component;
  */
 
 @Configuration
-@MapperScan("com.macro.mall.tiny.mbg.mapper")
+@MapperScan("com.liren.shoppingmall.malltiny01.mbg.dao")
 public class MybatisConfig {
 }

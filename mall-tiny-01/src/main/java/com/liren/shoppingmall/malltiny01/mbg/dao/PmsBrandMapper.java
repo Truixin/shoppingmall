@@ -2,11 +2,10 @@ package com.liren.shoppingmall.malltiny01.mbg.dao;
 
 import com.liren.shoppingmall.malltiny01.mbg.model.PmsBrand;
 import com.liren.shoppingmall.malltiny01.mbg.model.PmsBrandExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Component;
 
-@Component
+import java.util.List;
+
 public interface PmsBrandMapper {
     int countByExample(PmsBrandExample example);
 

@@ -18,7 +18,7 @@ public interface PmsBrandService {
      * @param pmsBrand
      * @return
      */
-    int  creatBrand(PmsBrand pmsBrand);
+    int creatBrand(PmsBrand pmsBrand);
 
     /**
      * 按id删除品牌
@@ -55,7 +55,7 @@ public interface PmsBrandService {
     /**
      * 查询品牌的分页信息
      *
-     * @param pageNum 页码
+     * @param pageNum  页码
      * @param pageSize
      * @return
      */
